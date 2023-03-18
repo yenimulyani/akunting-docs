@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favs.png" rel="icon" />
+<title>Documentation | AG-Accounting</title>
+<meta name="description" content="Your ThemeForest item Name and description">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/thumbs.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2"><strong>AG-Accounting </strong>| Documentation</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-light">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#ag_start">Intro</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#ag_master">Master Data</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_akuntansi">Akuntansi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_tipeAkun">Tipe Akun</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_akunShape">Akun Shape</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_masterAkun">Master Akun</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_akunDefault">Akun Default</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#ag_mapping">Mapping Akun</a>
+          <ul class="nav flex-column">
+			<li class="nav-item"><a class="nav-link" href="#ag_aktiva">Aktiva Tetap</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_navbar">Bayar Dimuka</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_sidebar">Kas</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_footer">Supplier</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_box_layout">Seller</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_box_layout">Customer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_box_layout">Income</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_box_layout">Category Item</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_box_layout">Ayat Silang STL</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#ag_posting">Posting Transaksi</a>
+			<ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_typography">PO</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_code">Penerimaan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_table">Transfer Keluar</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_icons">Transfer Masuk</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_image">Assembly IN</a></li>
+			<li class="nav-item"><a class="nav-link" href="#ag_video">Assembly Out</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_retail">Sales Retail</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_dealing">Sales Dealing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_bundling">Sales Bundling</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_online">Sales Online</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_elektrik">Sales Upload Elektrik</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_settlement">Settlement</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_mutasi">Mutasi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_mutasi_kas">Mutasi Kas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_po_payment">PO Payment</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_receive_income">Receive Income</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_advance_cost">Advance Cost</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_lpj_cost">LPJ Cost</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_po_linkaja">PO Link Aja</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_sales_ngrs">Sales NGRS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_inventory_usage">Inventory Usage</a></li>
+          </ul>
+		</li>
+        <li class="nav-item"><a class="nav-link" href="#ag_jurnal">Jurnal Akuntansi</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_tipeJurnal">Tipe Jurnal</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_saldoAwal">Saldo Awal Akun</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_jurnalMemorial">Jurnal Memorial</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_allJurnal">Semua Jurnal</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#ag_laporan">Laporan Keuangan</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_ledger">Buku Besar (Ledger)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_labaRugi">Laba-Rugi (Perusahaan & Cluster)</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_neraca">Neraca</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_labaRugi-compare">Laba-Rugi Komparatif (Perusahaan & Cluster)</a></li>
+          </ul>
+        </li>
+		<li class="nav-item"><a class="nav-link" href="#ag_closing">Closing Akuntansi</a></li>
+		<li class="nav-item"><a class="nav-link" href="#ag_rba">Akses Akuntansi</a>
+            <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_user">Pengguna</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_jabatan">Jabatan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_divisi">Divisi</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_akses">Hak Akses</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#ag_profile">Profile</a>
+			<ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#ag_akunsaya">Akun Saya</a></li>
+            <li class="nav-item"><a class="nav-link" href="#ag_resetpwd">Ubah Password</a></li>
+          </ul>
+		</li>
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="ag_start">
+        <h1>AG-Documentation</h1>
+        <h2>Dokumentasi teknis penggunaan AG-Accounting</h2>
+        <p class="lead">Beri kami feedback untuk dokumentasi yang lebih baik kedepannya.</p>
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong>Version:</strong> Beta</li>
+					<li><strong>Author:</strong> <a href="#" target="_blank">MKNT Dev-IT</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong class="font-weight-700">Created:</strong> Februari, 2023</li>
+				</ul>
+			</div>
+		</div>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/log-screen.png" alt=""></a></p>
+        <p class="alert alert-info">Jika anda menemukan adanya kesalahan dalam dokumentasi, silahkan berikan informasi ke <a target="_blank" href="#"> Tim Support MKNT Dev-IT</a>.</p>
+        </section>
+        
+		<hr class="divider">
+        <!-- Master Data
+		============================ -->
+        <section id="ag_master">
+          <h2>Master Data AG-Accounting</h2>
+          <p class="lead">Berikut ini merupakan bagian penting dari sumber data awal AG-Accounting:</p>
+          <p class="alert alert-danger">*Pada daftar menu berikut ini terdapat beberapa sumber data yang secara otomatis ditarik dari sistem AG utama <code>(auto)</code>, sehingga sama sekali tidak ada event create data yang bisa dijalankan. </p>
+          <ol>
+            <li>Master Data <strong>Akuntansi(Kas/Bank)</strong>.</li>
+            <li>Master Data <strong>Tipe Akun </strong> <code>(auto)</code>.</li>
+            <li>Master Data <strong>Akun Shape </strong> <code>(auto)</code>.</li>
+            <li>Master Data <strong>Akun</strong>.</li>
+            <li>Master Data <strong>Akun Default</strong>.</li>
+          </ol>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Master data akuntansi
+		============================ -->
+        <section id="ag_akuntansi">
+            <h2>Akuntansi (Kas/Bank)</h2>
+            <p>Sumber data akun kas/bank dari MKNT. Terdiri dari fitur untuk membuat akun baru, melakukan update data, penghapusan data, pencarian dan export data.</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank-update.png" alt=""></a></p>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">6. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/_ag_m-kasbank-search.png" alt=""></a></p><hr>
+        </section>
+        
+		<hr class="divider">
+		        
+		<!-- Tipe Akun
+		============================ -->
+        <section id="ag_tipeAkun">
+            <h2>Tipe Akun <code>(auto)</code></h2>
+            <p>Sumber data tipe akun pada AG-Accounting yang otomatis diambil dari AG utama. Terdiri dari fitur untuk melakukan pencarian dan export data.</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/tipe-akun/_ag_m-tipeakun.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/tipe-akun/_ag_m-tipeakun-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/tipe-akun/_ag_m-tipeakun-search.png" alt=""></a></p><hr>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Akun Shape
+		============================ -->
+        <section id="ag_akunShape">
+          <h2>Akun Shape <code>(auto)</code></h2>
+          <p>Sumber data akun shape pada AG-Accounting yang otomatis diambil dari AG utama. Terdiri dari fitur untuk melakukan pencarian dan export data.</p>
+           <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-shape/_ag_m-akunshape.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-shape/_ag_m-akunshape-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-shape/_ag_m-akunshape-search.png" alt=""></a></p><hr>
+        </section>
+        
+		<hr class="divider">
+		
+		<!-- Master Akun
+		============================ -->
+        <section id="ag_masterAkun">
+          <h2>Master Akun</h2>
+          <p>Sumber data akun MKNT. Terdiri dari fitur untuk membuat akun baru, melakukan update data, penghapusan data, pencarian dan export data.</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun-update.png" alt=""></a></p>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">6. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/master-akun/_ag_m-masterAkun-search.png" alt=""></a></p><hr>
+        </section>
+        
+		<hr class="divider">
+		
+    <!-- Akun Default
+		============================ -->
+        <section id="ag_akunDefault">
+          <h2>Akun Default</h2>
+          <p>Sumber data akun default MKNT. Terdiri dari fitur untuk membuat akun baru, melakukan update data, penghapusan data, pencarian dan export data.</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault-update.png" alt=""></a></p>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">6. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/master-data/akun-default/_ag_m-akunDefault-search.png" alt=""></a></p><hr>
+        </section>
+		
+        
+		<hr class="divider">
+		
+		<!-- Mapping
+		============================ -->
+        <section id="ag_mapping">
+          <h2>Mapping</h2>
+          <p class="lead mb-5">Fitur menu untuk proses mapping data akun-akun pada AG-Accounting</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/_ag_mapping-akun.png" alt=""></a></p>
+        </section>
+		<hr class="divider">
+
+        <section id="ag_aktiva">
+            <h2>Mapping Aktiva Tetap</h2>
+            <p class="lead mb-5">Fitur ini berfungsi untuk melakukan mapping data pada akun asset atau aktiva tetap</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">2.1 After saving</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-create-after.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-update.png" alt=""></a></p>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Export data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-export.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">6. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-search.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">7. Import data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-import.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">7.1 Proses upload</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-import-upload.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">7.2 Proses saving import</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-import-saving.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">7.3 After import</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/aktiva/_ag_mapping-aktiva-import-after.png" alt=""></a></p><hr>
+        </section>
+        <hr class="divider">
+
+
+        <!-- Bayar dimuka -->
+        <section id="ag_navbar">
+          <h2>Mapping Bayar Dimuka</h2>
+          
+          <p class="lead mb-5">Fitur ini berfungsi untuk melakukan mapping data bayar dimuka</p>
+          <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka.PNG" alt=""></a></p>
+          <h6><span class="badge badge-success text-white">2. Update data </span></h6>
+        
+          <p class="lead mb-5">Pengguna dapat melakukan edit data bayar dimuka, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_edit.PNG" alt=""> pada tampilan berikut : </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_choose_edit.png" alt=""></a></p>
+          
+          <p class="lead mb-5">Setelah itu akan muncul tampilan data maping akun bayar dimuka sesuai pilihan data yang akan diupdate: </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_edit.PNG" alt=""></a></p> 
+
+          <p class="lead mb-5">Pilih data yang akan di update, kemudian akan muncul form update data sesuai yang sudah dipilih, lalu update data sesuai dengan kebutuhan. </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_update.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">3. Create data baru</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan tambah data bayar dimuka, dengan klik tombol tambah, lalu muncul form tambah data seperti berikut:</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_create.PNG" alt=""></a></p><hr>
+                  
+          <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan hapus data bayar dimuka, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_delete.PNG" alt=""> lalu muncul pop up konfirmasi hapus data</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_delete.PNG" alt=""></a></p><hr>
+                        
+          <h6><span class="badge badge-success text-white">5. Export Excel</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan export data bayar dimuka, dengan klik tombol export excel, kemudian data yang sudah di export akan tampil sebagai berikut : </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_export.PNG" alt=""></a></p><hr>
+                
+          <h6><span class="badge badge-success text-white">6. Import Ecxel</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan import data, dengan klik tombol import excel, kemudian muncul form import untuk pilih cabang sesuai kebutuhan</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import.PNG" alt=""></a></p><hr>
+             
+          <h6><span class="badge badge-success text-white">6.1 Proses Upload Import Ecxel</span></h6>
+          <p class="lead mb-5">Pilih file yang akan diuplaod sesuai dengan format yang sudah ditentukan </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">6.2 Proses Saving Import Ecxel (belum)</span></h6>
+          <p class="lead mb-5">Tunggu proses improt excel </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">6.3 After Import Ecxel (belum)</span></h6>
+          <p class="lead mb-5">Data berhasil diimport, tampilan data sesuai dengan file yang telah di import</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p>
+             
+        </section>
+        <hr class="divider">
+
+        
+        <!-- Kas ================= -->
+        <section id="ag_sidebar">
+          <h2>Mapping Kas</h2>
+          <p class="lead mb-5">Menu Kas untuk monitoring data kas yang masuk. </p>
+          <h6><span class="badge badge-success text-white">1. Tampilan data</span></h6>
+          <!-- <p class="alert alert-info">*dimana proses transaksi posting utama dilakukan oleh cron job pada background proses (auto). </p> -->
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas.PNG" alt=""></a></p>
+
+          <h6><span class="badge badge-success text-white">2. Filter data</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan filter data kas dengan memilih keyword sesuai dengan kebutuhan yang akan dicari </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_filter_searchby.PNG" alt=""></a></p>
+          <p class="lead mb-5">Data tampil sesuai filter dan keyword yang sudah dipilih, sebagai berikut: </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_filter_searchbykyeword.PNG" alt=""></a></p>
+
+
+          <h6><span class="badge badge-success text-white">3. Update data </span></h6>
+        
+          <p class="lead mb-5">Pengguna dapat melakukan edit data kas, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_edit.PNG" alt=""> pada tampilan berikut : </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_edit.png" alt=""></a></p>
+          
+          <p class="lead mb-5">Setelah itu akan muncul tampilan data maping akun kas sesuai pilihan data yang akan diupdate: </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_edit1.PNG" alt=""></a></p> 
+
+          <p class="lead mb-5">Pilih data yang akan di update, kemudian akan muncul form update data sesuai yang sudah dipilih, lalu update data sesuai dengan kebutuhan. </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_edit2.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">4. Create data baru</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan tambah data kas sesuai dengan bank yang sudah dipilih, dengan klik tombol tambah, lalu muncul form tambah data seperti berikut:</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_create.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">5. Delete data</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan hapus data maping kas, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_delete.PNG" alt=""> lalu muncul pop up konfirmasi hapus data</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_delete.PNG" alt=""></a></p><hr>
+                        
+          <h6><span class="badge badge-success text-white">6. Export Excel</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan export excel data kas, dengan klik tombol export excel, kemudian data yang sudah di export akan tampil sebagai berikut : </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_export.PNG" alt=""></a></p><hr>
+                
+          <h6><span class="badge badge-success text-white">7. Import Ecxel</span></h6>
+          <p class="lead mb-5">Pengguna dapat melakukan import data kas, dengan klik tombol import excel, kemudian muncul form import untuk pilih cabang sesuai kebutuhan</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_import2.PNG" alt=""></a></p><hr>
+             
+          <h6><span class="badge badge-success text-white">7.1 Proses Upload Import Ecxel (belum)</span></h6>
+          <p class="lead mb-5">Pilih file yang akan diuplaod sesuai dengan format yang sudah ditentukan </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">7.2 Proses Saving Import Ecxel (belum)</span></h6>
+          <p class="lead mb-5">Tunggu proses improt excel </p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+          <h6><span class="badge badge-success text-white">7.3 After Import Ecxel (belum)</span></h6>
+          <p class="lead mb-5">Data berhasil diimport, tampilan data sesuai dengan file yang telah di import</p>
+          <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p>
+
+      </section>
+      <hr class="divider">
+
+      <!-- Supplier -->
+      <section id="ag_footer">
+        <h2>Mapping Supplier</h2>
+        <p class="lead mb-5">Menu supplier untuk mapping data supplier. </p>
+        <h6><span class="badge badge-success text-white">1. Tampilan data</span></h6>
+        <!-- <p class="alert alert-info">*dimana proses transaksi posting utama dilakukan oleh cron job pada background proses (auto). </p> -->
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/supplier/_ag_mapping-supplier-tampildata.PNG" alt=""></a></p>
+
+        <h6><span class="badge badge-success text-white">2. Filter data</span></h6>
+        <p class="lead mb-5">Pengguna dapat melakukan filter data supplier dengan memilih keyword sesuai dengan kebutuhan yang akan dicari </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/supplier/_ag_mapping-supplier-filter.PNG" alt=""></a></p>
+        <p class="lead mb-5">Data tampil sesuai filter dan keyword yang sudah dipilih, sebagai berikut: </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_filter_searchbykyeword.PNG" alt=""></a></p>
+
+
+        <h6><span class="badge badge-success text-white">3. Update data </span></h6>
+      
+        <p class="lead mb-5">Pengguna dapat melakukan edit data kas, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_edit.PNG" alt=""> pada tampilan berikut : </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_edit.png" alt=""></a></p>
+        
+        <p class="lead mb-5">Setelah itu akan muncul tampilan data maping akun kas sesuai pilihan data yang akan diupdate: </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_edit1.PNG" alt=""></a></p> 
+
+        <p class="lead mb-5">Pilih data yang akan di update, kemudian akan muncul form update data sesuai yang sudah dipilih, lalu update data sesuai dengan kebutuhan. </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_edit2.PNG" alt=""></a></p><hr>
+
+        <h6><span class="badge badge-success text-white">4. Create data baru</span></h6>
+        <p class="lead mb-5">Pengguna dapat melakukan tambah data kas sesuai dengan bank yang sudah dipilih, dengan klik tombol tambah, lalu muncul form tambah data seperti berikut:</p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_create.PNG" alt=""></a></p><hr>
+
+        <h6><span class="badge badge-success text-white">5. Delete data</span></h6>
+        <p class="lead mb-5">Pengguna dapat melakukan hapus data maping kas, dengan klik tombol <img src="assets/images/mapping/bayardimuka/_ag_delete.PNG" alt=""> lalu muncul pop up konfirmasi hapus data</p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_delete.PNG" alt=""></a></p><hr>
+                      
+        <h6><span class="badge badge-success text-white">6. Export Excel</span></h6>
+        <p class="lead mb-5">Pengguna dapat melakukan export excel data kas, dengan klik tombol export excel, kemudian data yang sudah di export akan tampil sebagai berikut : </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_export.PNG" alt=""></a></p><hr>
+              
+        <h6><span class="badge badge-success text-white">7. Import Ecxel</span></h6>
+        <p class="lead mb-5">Pengguna dapat melakukan import data kas, dengan klik tombol import excel, kemudian muncul form import untuk pilih cabang sesuai kebutuhan</p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/kas/_ag_mapping_kas_import2.PNG" alt=""></a></p><hr>
+           
+        <h6><span class="badge badge-success text-white">7.1 Proses Upload Import Ecxel (belum)</span></h6>
+        <p class="lead mb-5">Pilih file yang akan diuplaod sesuai dengan format yang sudah ditentukan </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+        <h6><span class="badge badge-success text-white">7.2 Proses Saving Import Ecxel (belum)</span></h6>
+        <p class="lead mb-5">Tunggu proses improt excel </p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p><hr>
+
+        <h6><span class="badge badge-success text-white">7.3 After Import Ecxel (belum)</span></h6>
+        <p class="lead mb-5">Data berhasil diimport, tampilan data sesuai dengan file yang telah di import</p>
+        <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/bayardimuka/_ag_mapping_bayardimuka_import_choosefile.PNG" alt=""></a></p>
+
+    </section>
+    <hr class="divider">
+
+      <!-- end supplier -->
+
+
+        <!-- Posting
+        ============================ -->
+        <section id="ag_posting">
+            <h2>Posting Transaksi</h2>
+            <p class="lead mb-5">Fitur menu untuk monitoring posting data pada AG-Accounting. </p>
+            <p class="alert alert-info">*dimana proses transaksi posting utama dilakukan oleh cron job pada background proses (auto). </p>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/_ag_mapping-akun.png" alt=""></a></p>
+        </section>
+        <hr class="divider">
+		
+
+        <section id="ag_posting">
+            <h2>Posting Transaksi</h2>
+            <p class="lead mb-5">Fitur menu untuk monitoring posting data pada AG-Accounting. </p>
+            <p class="alert alert-info">*dimana proses transaksi posting utama dilakukan oleh cron job pada background proses (auto). </p>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/mapping/_ag_mapping-akun.png" alt=""></a></p>
+        </section>
+        <hr class="divider">
+        
+        <!-- Closing
+        ============================ -->
+        <section id="ag_closing">
+            <h2>Closing Akun</h2>
+            <p class="lead mb-5">Fitur ini berfungsi untuk membuat akun closing pada AG-Accounting</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/closing/_ag_closing-akun.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/closing/_ag_closing-akun-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/closing/_ag_closing-akun-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">4. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/closing/_ag_closing-akun-search.png" alt=""></a></p><hr>
+        </section>
+
+        <!-- Pengaturan Akses Ag 
+        ============================ -->
+        <section id="ag_rba">
+          <h2>Akses AG-Accounting</h2>
+          <p class="lead">Berikut ini merupakan bagian penting dari pengaturan hak akses pada setiap level pengguna AG-Accounting:</p>
+          <ol>
+            <li>Akun Pengguna.</li>
+            <li>Divisi.</li>
+            <li>Jabatan.</li>
+            <li>Hak Akses.</li>
+          </ol>
+        </section>
+        <hr class="divider">
+
+        <section id="ag_user">
+            <h2>Akun Pengguna</h2>
+            <p class="lead mb-5">Fitur ini berfungsi untuk membuat akun login pada AG-Accounting</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/user/_ag_akses-pengguna.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/user/_ag_akses-pengguna-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/user/_ag_akses-pengguna-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/user/_ag_akses-pengguna-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/user/_ag_akses-pengguna-search.png" alt=""></a></p><hr>
+        </section>
+
+        <section id="ag_jabatan">
+            <h2>Jabatan</h2>
+            <p class="lead mb-5">Fitur ini berfungsi untuk membuat group jabatan untuk pengguna</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/jabatan/_ag_akses-jabatan.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/jabatan/_ag_akses-jabatan-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/jabatan/_ag_akses-jabatan-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/jabatan/_ag_akses-jabatan-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/jabatan/_ag_akses-jabatan-search.png" alt=""></a></p><hr>
+        </section>
+
+        <section id="ag_divisi">
+            <h2>Divisi</h2>
+            <p class="lead mb-5">Fitur ini berfungsi untuk membuat group divisi untuk pengguna</p>
+            <h6><span class="badge badge-success text-white">1. Tampilan data </span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/divisi/_ag_akses-divisi.png" alt=""></a></p>
+            <hr>
+            <h6><span class="badge badge-success text-white">2. Create data baru</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/divisi/_ag_akses-divisi-create.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">3. Update data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/divisi/_ag_akses-divisi-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">4. Delete data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/divisi/_ag_akses-divisi-del.png" alt=""></a></p><hr>
+            <h6><span class="badge badge-success text-white">5. Pencarian data</span></h6>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/akses/divisi/_ag_akses-jabatan-search.png" alt=""></a></p><hr>
+        </section>
+
+        <!-- Profile
+        ============================ -->
+        <section id="ag_profile">
+            <h2>Profile Pengguna</h2>
+            <p class="alert alert-info">Fitur menu untuk monitoring data pengguna teridentifikasi. </p>
+        </section>
+        <hr class="divider">
+
+        <section id="ag_akunsaya">
+            <h2>Akun Saya</h2>
+            <p class="lead mb-5">Info pengguna teridentifikasi. </p>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/profile/_ag_profile-akun-saya.png" alt=""></a></p>
+        </section>
+        <hr class="divider">
+
+        <section id="ag_resetpwd">
+            <h2>Ubah Password</h2>
+            <p class="lead mb-5">Fitur menu untuk melakukan perubahan password pengguna. </p>
+            <p><a class="popup-img" href="#"><img class="img-fluid border" src="assets/images/profile/_ag_profile-update-pwd.png" alt=""></a></p>
+        </section>
+        <hr class="divider">
+       
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <p class="text-center">Copyright &copy; 2023 <a href="#">AG-Docs</a>. All Rights Reserved.</p>
+	  <p class="text-2 text-center mb-0">MKNT DEV-IT.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
